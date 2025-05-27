@@ -14,16 +14,13 @@ const schools = [
 export default function OurSchools() {
   return (
     <section className="py-20 px-4 md:px-10 bg-white">
-      <div className="flex justify-between items-center mb-6 flex-wrap gap-4">
-        <div>
-          <h2 className="text-orange-500 text-lg font-bold uppercase tracking-wide">
-            Best Schools in Delhi / NCR ________
-          </h2>
-          <h1 className="text-3xl md:text-7xl font-extrabold text-black">Our Schools</h1>
-        </div>
-        <button className="bg-pink-500 hover:bg-pink-600 text-white px-6 py-2 rounded-full font-semibold text-900">
-          View All Events
-        </button>
+      <div className="mb-12">
+        <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 md:text-3xl px-0">
+          Best Schools in Delhi / NCR ________
+        </h2>
+        <h1 className="text-3xl md:text-6xl font-extrabold text-black">
+          Our Schools
+        </h1>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">

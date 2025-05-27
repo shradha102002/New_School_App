@@ -76,9 +76,9 @@ export default function AwardSec2() {
     <section className="bg-[#f8f9fa] py-10 px-4">
       <div className="max-w-7xl mx-auto">
         <div className="mb-8">
-          <h2 className="text-2xl md:text-3xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block text-left">
-            AWARDS & ACCOLADES
-          </h2>
+          <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 px-4 md:px-10 md:text-5xl">
+        AWARDS & ACCOLADES _________
+      </h2>
         </div>
 
         <div className="space-y-20">

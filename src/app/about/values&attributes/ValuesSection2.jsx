@@ -35,7 +35,8 @@ export default function ValuesSection() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-orange-600 font-bold uppercase text-sm">Values & Attributes</h2>
+        <h6 className="text-orange-600 font-bold uppercase text-large">Values & Attributes</h6>
+
           <p className="text-2xl font-bold text-gray-800 mt-2">
             <span className="text-pink-600">We strive to seek</span>, to reach out, inform, involve and take along with us all those who share our values and beliefs.
           </p>

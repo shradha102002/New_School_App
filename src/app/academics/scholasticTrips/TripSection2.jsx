@@ -1,5 +1,7 @@
 'use client';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
+
 
 const trips = [
   {
@@ -138,9 +140,13 @@ export default function TripSection2() {
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {trips.map((trip, idx) => (
-          <div
+          <motion.div
             key={idx}
             className="border rounded-lg overflow-hidden shadow hover:shadow-md transition-all duration-300"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: idx * 0.05 }}
           >
             <img
               src={trip.image}
@@ -151,7 +157,7 @@ export default function TripSection2() {
               <h3 className="text-lg font-semibold">{trip.title}</h3>
               <p className="text-sm text-gray-600">{trip.date}</p>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>

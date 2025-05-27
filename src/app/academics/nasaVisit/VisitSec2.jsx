@@ -4,14 +4,16 @@ import Image from 'next/image';
 export default function VisitSec2() {
   return (
     <section className="py-9 px-4 bg-white max-w-8xl mx-auto">
-      {/* Heading block */}
-      <div className="mb-6">
-        <h3 className="text-sm text-[#FF6400] font-bold uppercase tracking-wider mb-1">
-          Beyond Academics
-        </h3>
-        <h2 className="text-2xl md:text-3xl font-bold">
-          <span className="text-[#ff4f6d]">NASA Visit</span>, an lifetime exposure
-        </h2>
+  {/* Aligned heading block */}
+  <div className="mb-6 px-4 md:px-10">
+    <div className="w-fit">
+      <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide md:text-3xl">
+        Beyond Academics _________
+      </h2>
+      <h2 className="text-2xl md:text-3xl font-bold">
+        <span className="text-[#ff4f6d]">NASA Visit</span>, a lifetime exposure
+      </h2>
+    </div>
       </div>
 
       {/* First half with image and first few paragraphs */}

@@ -78,12 +78,12 @@ const toppers = [
 export default function Toppersection() {
  return (
   <section className="relative py-20 px-4 md:px-10 bg-[#f9f9f9]">
-    <h2 className="text-orange-500 text-xl md:text-2xl font-bold uppercase tracking-wide mb-2">
-      Our Result _________
-    </h2>
-    <h1 className="text-3xl md:text-5xl font-extrabold mb-10 text-black">
-      Our School Toppers
-    </h1>
+    <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 px-4 md:px-10 md:text-3xl">
+        Our Result _________
+      </h2>
+      <h1 className="text-3xl md:text-6xl font-extrabold mb-8 text-black px-4 md:px-10">
+        Our School Toppers
+      </h1>
 
       <div className="flex justify-between items-center mb-6 px-4 md:px-16">
         <div className="swiper-button-prev-custom bg-orange-500 hover:bg-orange-600 text-white p-3 rounded-full cursor-pointer shadow-lg transition transform hover:scale-110">

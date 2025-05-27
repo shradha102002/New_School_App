@@ -131,8 +131,12 @@ const MediaSec2 = () => {
   return (
     <section className="py-12 px-4 bg-white" id="print-media">
       <div className="max-w-7xl mx-auto">
-        <p className="text-orange-500 font-semibold mb-2">DIGITAL MEDIA  _______</p>
-        <h2 className="text-3xl md:text-4xl font-bold mb-15">Prudence in Print Media</h2>
+       <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 px-4 md:px-10 md:text-3xl">
+       DIGITAL MEDIA  _________
+      </h2>
+      <h1 className="text-3xl md:text-6xl font-extrabold mb-8 text-black px-4 md:px-10">
+      Prudence in Print Media
+      </h1>
 
         {mediaData.map((item, index) => (
           <div key={item.id} className="mb-10 border rounded-lg shadow hover:shadow-lg transition">

@@ -18,12 +18,12 @@ export default function AboutChairmanSection2() {
 
         {/* Right Side - Heading + First Two Paragraphs */}
         <div>
-          <h3 className="text-[#F43F5E] font-bold uppercase text-sm tracking-widest mb-2">
-            DR. G.S. MATHAROO
-          </h3>
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">
-            Our Chairman
-          </h2>
+          <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 px-4 md:px-10 md:text-3xl">
+       DR. G.S. MATHAROO _________
+      </h2>
+      <h1 className="text-3xl md:text-6xl font-extrabold mb-8 text-black px-4 md:px-10">
+        Our Chairman
+      </h1>
           <div className="text-gray-700 space-y-4 text-justify">
             <p>
               Dr. G.S. Matharoo, Chairman, Prudence Group of Schools has a great passion for providing the right education system especially for the school going students. There was a deep sense of disquiet about several aspects of our educational system, particularly the school system, which he sincerely wished to set it right. His ardent desire drove him to voluntarily retire from his successful career in the Indian Civil Service when it was at its peak, and take upon himself the responsibility to set up schools on the lines of his principles and beliefs. He was so enamoured with the inclination to serve the nation with his contribution towards facilitating a good education system, that nothing could thwart him from starting a new chain of school by the name of Prudence. With his unparalleled commitment to the cause of education and a dream for a truly educated and self-sufficient nation, he started reforming and practising in his schools, those essential areas that needed urgent attention. He has been pioneering far reaching transformation in the field of School Education through his dynamic and visionary leadership.

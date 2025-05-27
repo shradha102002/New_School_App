@@ -19,12 +19,12 @@ export default function AboutSchoolSection4() {
   return (
     <section className="py-20 px-4 md:px-12 bg-white">
       <div className="mb-10">
-        <h2 className="text-orange-600 text-sm font-semibold uppercase tracking-wider">
-          School Amenities
-        </h2>
-        <h1 className="text-2xl md:text-3xl font-extrabold text-gray-900 mt-2">
-          THE BEST A CHILD CAN GET
-        </h1>
+         <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 px-4 md:px-10 md:text-3xl">
+        School Amenities _________
+      </h2>
+      <h1 className="text-3xl md:text-6xl font-extrabold mb-8 text-black px-4 md:px-10">
+        THE BEST A CHILD CAN GET
+      </h1>
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">

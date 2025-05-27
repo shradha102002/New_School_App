@@ -4,9 +4,9 @@ const ViharSec2 = () => {
   return (
     <section className="py-12 px-4 bg-white text-gray-800" id="admissions-criteria">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-orange-600 mb-4">
-          ADMISSIONS CRITERIA ASHOK VIHAR
-        </h2>
+        <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 px-4 md:px-10 md:text-4xl">
+      Admissions Criteria Ashok Vihar_________
+      </h2>
 
         <p className="mb-6 font-medium">
           Admission Policy for Academic Session 2025-26 School Id No. 1411252

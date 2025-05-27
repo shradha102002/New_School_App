@@ -43,11 +43,11 @@ const leadershipData = [
 export default function SchoolLeadershipSection() {
   return (
     <section className="relative py-20 px-4 md:px-10 bg-white">
-      <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2">
+       <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 px-4 md:px-10 md:text-3xl">
         SCHOOL LEADERSHIP TEAM _________
       </h2>
-      <h1 className="text-3xl md:text-5xl font-extrabold mb-8 text-black">
-        Our School Leadership
+      <h1 className="text-3xl md:text-6xl font-extrabold mb-8 text-black px-4 md:px-10">
+       Our School Leadership
       </h1>
 
       {/* Navigation Buttons */}

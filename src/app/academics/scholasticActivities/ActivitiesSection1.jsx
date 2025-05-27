@@ -2,11 +2,11 @@ import Image from 'next/image'
 
 export default function BasketballPage() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-white">
       {/* Hero Section */}
       <div className="relative w-full h-[80vh]">
         <Image
-          src="/activities_img/activity1.jpg" // Save your image in public folder with this name
+          src="/activities_img/activity1.jpg"
           alt="Basketball Players"
           layout="fill"
           objectFit="cover"

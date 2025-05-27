@@ -45,11 +45,11 @@ const DignitarySec2 = () => {
      <section className="py-12 px-4 bg-white" id="print-media">
     
     
-      <h2 className="text-xl sm:text-2xl font-bold text-orange-600 border-b-4 border-orange-500 inline-block mb-10">
-        VISIT TO DIGNITARY
+     <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-9 px-8 md:px-10 md:text-5xl">
+       VISIT TO DIGNITARY  _________
       </h2>
 
-      <div className="space-y-16">
+      <div className="space-y-18">
         {dignitaryData.map((item, index) => {
           const isEven = index % 2 === 0;
           return (

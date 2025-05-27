@@ -115,7 +115,7 @@ export default function Navbar() {
 
         {/* Mobile Menu Icon */}
         <button
-          className="lg:hidden text-3xl text-gray-700"
+          className="lg:hidden text-3xl text-black-700"
           onClick={() => setMobileOpen(!mobileOpen)}
         >
           {mobileOpen ? <HiOutlineX /> : <HiOutlineMenu />}

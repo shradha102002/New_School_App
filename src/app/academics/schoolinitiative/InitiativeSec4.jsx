@@ -56,12 +56,12 @@ export default function InitiativeSec4() {
   return (
     
     <section className="w-full bg-white px-4 md:px-10 py-10">
-      <h3 className="text-sm text-[#FF6400] font-bold uppercase tracking-wider mb-1">
-        Let’s Contribute
-      </h3>
-      <h2 className="text-2xl md:text-3xl font-bold mb-8">
-        Social Initiatives & NGO Visits
+       <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 px-4 md:px-10 md:text-3xl">
+        Let’s Contribute_________
       </h2>
+      <h1 className="text-3xl md:text-6xl font-extrabold mb-8 text-black px-4 md:px-10">
+       Social Initiatives & NGO Visits
+      </h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {initiatives.map((item, index) => (

@@ -152,11 +152,11 @@ const reviews = [
 export default function ReviewsSection() {
   return (
     <section className="relative py-20 bg-white px-4 md:px-10">
-      <h2 className="text-orange-500 text-xl md:text-2xl font-extrabold uppercase tracking-wide mb-3">
-        School Reviews <span className="inline-block w-20 h-1 bg-orange-500 ml-2 align-middle" />
+      <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 px-4 md:px-10 md:text-3xl">
+      School Reviews  _________
       </h2>
-      <h1 className="text-4xl md:text-5xl font-extrabold mb-10 text-black">
-        Reviews for our schools
+      <h1 className="text-3xl md:text-6xl font-extrabold mb-8 text-black px-4 md:px-10">
+      Reviews for our schools
       </h1>
 
       {/* Arrows */}

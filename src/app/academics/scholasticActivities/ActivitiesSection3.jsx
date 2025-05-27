@@ -1,5 +1,5 @@
 // pages/sports.js
-
+'use client';
 export default function SportsActivities() {
   const sportsList = [
     { title: 'BASKET BALL', image: '/activities_img/basketball.jpg' },
@@ -19,16 +19,21 @@ export default function SportsActivities() {
   return (
     <main className="min-h-screen px-4 py-12 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-10">
-          <h3 className="text-sm font-bold text-orange-600 uppercase">Sports Activities</h3>
-          <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 mt-2">
-            Our Unmatched Sports Facilities
+        <div className="text-left mb-10">
+          <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 px-4 md:px-10 md:text-3xl">
+            Sports Activities _________
           </h2>
+          <h1 className="text-3xl md:text-6xl font-extrabold mb-8 text-black px-4 md:px-10">
+            Our Unmatched Sports Facilities
+          </h1>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 px-4 md:px-0">
           {sportsList.map((sport, idx) => (
-            <div key={idx} className="border rounded-lg overflow-hidden shadow hover:shadow-lg transition duration-300">
+            <div
+              key={idx}
+              className="border rounded-lg overflow-hidden shadow hover:shadow-2xl transition duration-300 transform hover:scale-105"
+            >
               <img
                 src={sport.image}
                 alt={sport.title}

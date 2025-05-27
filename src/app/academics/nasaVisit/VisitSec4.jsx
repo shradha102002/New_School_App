@@ -41,11 +41,12 @@ export default function VisitSec4() {
    <section className="w-full bg-white px-4 md:px-10 py-10">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <h3 className="text-[#FF6400] font-semibold uppercase text-sm tracking-wide border-b-2 border-[#FF6400] inline-block mb-1">
-          Rememberable Memories
-        </h3>
-        <h2 className="text-2xl md:text-3xl font-bold mb-8">NASA Visit Photo Gallery</h2>
-
+        <h2 className="text-orange-400 text-lg font-bold uppercase tracking-wide mb-2 px-4 md:px-10 md:text-3xl">
+        Rememberable Memories _________
+      </h2>
+      <h1 className="text-3xl md:text-6xl font-extrabold mb-8 text-black px-4 md:px-10">
+       NASA Visit Photo Gallery
+      </h1>
         {/* Custom Layout: 3 - 3 - 2 */}
         <div className="grid gap-4">
           {/* Row 1 - 3 Images */}
