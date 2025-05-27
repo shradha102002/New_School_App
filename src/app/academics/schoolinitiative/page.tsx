@@ -12,7 +12,7 @@ import IntiativeSec4 from './InitiativeSec4';
 
 
 import Footer from '../../components/Footer';
-import InitiativeSec4 from './InitiativeSec4';
+
 
 export default function Home() {
   return (
@@ -22,10 +22,8 @@ export default function Home() {
       <InitiativeSec1 />
       <InitiativeSec2 />
       <InitiativeSec3 />
-      <InitiativeSec4/>
+      <IntiativeSec4/>
       
-      
-     
       
       <Footer />
     </main>

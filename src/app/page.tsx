@@ -7,7 +7,7 @@ import About from './components/About';
 import SchoolPhilosophy from './components/SchoolPhilosophy';
 import Student from './components/Student';
 import Toppersection from './components/Toppersection';
-import OurSchools from './components/OurSchools';
+import OurSchools from './components/OurSchools'
 import EventsSection from './components/EventsSection'
 import ActivitiesSlider from './components/ActivitiesSlider'
 import HouseValues from './components/HouseValues'
@@ -30,6 +30,7 @@ export default function Home() {
       <SchoolPhilosophy />
       <Student />
       <Toppersection />
+      <OurSchools/>
       <EventsSection/>
       <ActivitiesSlider/>
       <HouseValues/>
